@@ -1,0 +1,30 @@
+@use '../../../scss/Foundation/mixin';
+@use '../../Foundation/vars' as va;
+
+.p-header--nav--main-menu__item{
+    font-family: 'Roboto', sans-serif;
+    background: va.$sub-color-y;
+    color: va.$main-color;;
+    font-size: 4rem;
+    text-align: center;
+    padding:16.5px 16px;
+    //spanタグ
+    &.__profile{
+        position:relative;
+    }
+    //span下線
+    &.__profile::after{
+        content: "";
+        position:absolute;
+        left:16.5px;
+        //bottomはpadding-bottomの16.5remから文字と線の間隔4remを引いたもの
+        bottom: 4px;
+        height: 3px;
+        background: va.$main-color;
+        transition: all .1s;
+    }
+    &:hover.__profile::after{
+        //width:calc(100% - 16rem);
+        width:100%;
+    }
+}

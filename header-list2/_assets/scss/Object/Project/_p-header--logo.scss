@@ -1,8 +1,0 @@
-@use '../../Foundation/mixin';
-@use '../../Foundation/vars' as v;
-
-.p-header--logo{
-    width: v.$sidebar-width;
-    height: 70px;
-    background-color:bisque;
-}
