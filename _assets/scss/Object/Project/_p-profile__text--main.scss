@@ -1,0 +1,6 @@
+@use '../../Foundation/vars' as va;
+
+.p-profile__text--main{
+    font-family: va.$font-base-Japanese;
+    font-size:16px;
+}

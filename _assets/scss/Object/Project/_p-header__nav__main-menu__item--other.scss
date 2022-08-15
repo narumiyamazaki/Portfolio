@@ -1,0 +1,10 @@
+@use "../../Foundation/vars" as va;
+
+.p-header__nav__main-menu__item--other{
+    font-family: 'Roboto', sans-serif;
+    background: va.$main-color;
+    color: va.$sub-color-y;
+    font-size: 4rem;
+    text-align: center;
+    padding:10px 16px;
+}

@@ -1,0 +1,22 @@
+@use "../../Foundation/vars" as va;
+
+.p-header__nav__main-menu__item--works{
+    //aタグ
+        display: block;
+        position:relative;
+    //a下線
+    &::after{
+        content: "";
+        position:absolute;
+        left:0px;
+        //bottomはpadding-bottomの16.5remから文字と線の間隔4remを引いたもの
+        bottom: 4px;
+        height: 3px;
+        background: va.$main-color;
+        transition: all .1s;
+    }
+    &:hover::after{
+        //width:calc(100% - 16rem);
+        width:100%;
+    }
+}

@@ -1,0 +1,6 @@
+@use '../../Foundation/vars' as va;
+
+.p-main-visual__text--English{
+    font-family: va.$font-base-English;
+    font-size: 2rem;
+}

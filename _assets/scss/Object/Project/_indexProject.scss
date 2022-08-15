@@ -1,8 +1,31 @@
 @use './p-main-menu';
-@use './p-header--nav--main-menu__item';
-@use 'p-header--nav--main-menu__contact';
+@use './p-header__nav__main-menu__item';
+@use './p-header__nav__main-menu__item--other';
 @use './_p-nav--service';
 @use './p-sub-menu--service';
 @use './p-nav--btn';
-@use './p-header--nav';
+@use './p-header__nav';
+@use './p-header__nav__main-menu';
+@use './p-heading1';
 @use './p-main';
+@use './p-main-visual';
+@use './p-main-visual__text__wrapper';
+
+@use './p-main-visual__heading2--Japanese';
+@use './p-main-visual__text--Japanese';
+@use './p-main-visual__heading2--English';
+@use './p-main-visual__text--English';
+
+//prifile
+@use './p-profile';
+@use './p-profile__contents__container';
+@use './p-profile__heading2--English';
+@use './p-profile__heading2--Japanese';
+@use './p-profile__text--main';
+@use './p-profile__contents__wrapper--name';
+@use './p-profile__item--name';
+@use './p-profile__image';
+@use './p-header__nav__main-menu__item--profile';
+@use './p-header__nav__main-menu__item--skill';
+@use './p-header__nav__main-menu__item--works';
+@use './p-header__nav__main-menu__item--contact';
