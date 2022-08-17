@@ -1,0 +1,30 @@
+@use '../../Foundation/vars' as va;
+
+.p-profile__side--right{
+    order: 2;
+    width:100px;
+    height:562px;
+    position:relative;
+    background-color: va.$main-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::before{
+        content:'';
+        width:100px;
+        height:18px;
+        background-color: va.$sub-color-y;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    &::after{
+        content:'';
+        width:100px;
+        height:18px;
+        background-color: va.$sub-color-y;
+        position:absolute;
+        bottom:0;
+        left:0;
+    }
+}

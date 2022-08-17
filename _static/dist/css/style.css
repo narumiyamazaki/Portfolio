@@ -772,6 +772,7 @@ body {
   font-size: 5.6rem;
   margin-bottom: 8px;
   position: relative;
+  padding-left: 16px;
 }
 .p-profile__heading2--English::before {
   content: "";
@@ -779,7 +780,8 @@ body {
   height: 50px;
   background-color: #193EE3;
   position: absolute;
-  right: 16px;
+  left: 0px;
+  top: 12px;
 }
 
 .p-profile__heading2--Japanese {
@@ -792,16 +794,19 @@ body {
 .p-profile__text--main {
   font-family: "Noto Serif JP", serif;
   font-size: 16px;
+  margin-bottom: 8px;
 }
 
 .p-profile__contents__wrapper--name {
   display: flex;
+  margin-bottom: 8px;
 }
 
 .p-profile__item--name {
   font-family: "Noto Serif JP", serif;
   font-size: 2.4rem;
   font-weight: Semibold;
+  margin-bottom: 4px;
 }
 
 .p-profile__image {
@@ -843,10 +848,14 @@ body {
   bottom: 4px;
   height: 3px;
   background: #08144B;
-  transition: all 0.1s;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform 0.1s;
+  width: 100%;
 }
 .p-header__nav__main-menu__item--skill:hover::after {
-  width: 100%;
+  transform-origin: left top;
+  transform: scale(1, 1);
 }
 
 .p-header__nav__main-menu__item--works {
@@ -860,10 +869,14 @@ body {
   bottom: 4px;
   height: 3px;
   background: #08144B;
-  transition: all 0.1s;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform 0.1s;
+  width: 100%;
 }
 .p-header__nav__main-menu__item--works:hover::after {
-  width: 100%;
+  transform-origin: left top;
+  transform: scale(1, 1);
 }
 
 .p-header__nav__main-menu__item--contact {
@@ -877,12 +890,180 @@ body {
   bottom: 4px;
   height: 3px;
   background: #FAFF0D;
-  transition: all 0.1s;
-}
-.p-header__nav__main-menu__item--contact:hover::after {
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform 0.1s;
   width: 100%;
 }
+.p-header__nav__main-menu__item--contact:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
 
+.p-profile__item--English-translation {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.p-profile__name {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 11px;
+}
+
+.p-profile__item--name--wrapper {
+  margin-right: 32px;
+}
+
+.p-profile__contents__wrapper--career {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.p-profile__item--career {
+  font-family: "Noto Serif JP", serif;
+  font-size: 2.4rem;
+  font-weight: Semibold;
+  margin-bottom: 4px;
+}
+
+.p-profile__item--career--wrapper {
+  margin-right: 32px;
+}
+
+.p-profile__career--top {
+  font-family: "Noto Serif JP", serif;
+  font-size: 18px;
+  margin-bottom: 8px;
+  max-width: 320px;
+}
+
+.p-profile__career--bottom {
+  font-family: "Noto Serif JP", serif;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.p-profile__side--left {
+  order: 0;
+  width: 100px;
+  height: 562px;
+  position: relative;
+  background-color: #08144B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-profile__side--left::before {
+  content: "";
+  width: 100px;
+  height: 18px;
+  background-color: #FAFF0D;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.p-profile__side--left::after {
+  content: "";
+  width: 100px;
+  height: 18px;
+  background-color: #FAFF0D;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.p-profile__side--right {
+  order: 2;
+  width: 100px;
+  height: 562px;
+  position: relative;
+  background-color: #08144B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-profile__side--right::before {
+  content: "";
+  width: 100px;
+  height: 18px;
+  background-color: #FAFF0D;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.p-profile__side--right::after {
+  content: "";
+  width: 100px;
+  height: 18px;
+  background-color: #FAFF0D;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.p-profile__side__text {
+  color: #FAFAFA;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  transform: rotate(90deg);
+  white-space: nowrap;
+}
+
+.p-profile__link {
+  font-family: "Noto Serif JP", serif;
+  color: #08144B;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 30px;
+  display: block;
+  height: 48px;
+  padding: 12px 0;
+  text-align: center;
+  position: relative;
+  /*
+  &:hover.p-profile__link__arrow{
+      //リンクホバー時の矢印の挙動  
+  }*/
+}
+.p-profile__link::after {
+  content: "";
+  border-top: solid 1px #08144B;
+  border-right: solid 1px #08144B;
+  width: 9px;
+  height: 9px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 27.27px;
+  bottom: 17.27px;
+}
+.p-profile__link:hover {
+  background-color: #08144B;
+  color: #FAFF0D;
+}
+.p-profile__link:hover::after {
+  border-top: solid 1px #FAFF0D;
+  border-right: solid 1px #FAFF0D;
+}
+
+/*
+
+.p-profile__link__arrow{
+    display: block;
+    border-top: solid 1px #08144B;
+    border-right: solid 1px #08144B;
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    position:absolute;
+    right:27.27px;
+    bottom:17.27px;
+}
+
+*/
 .background {
   background-color: black;
   width: 680px;

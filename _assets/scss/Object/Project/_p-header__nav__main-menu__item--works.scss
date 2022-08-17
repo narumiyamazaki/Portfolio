@@ -13,10 +13,15 @@
         bottom: 4px;
         height: 3px;
         background: va.$main-color;
-        transition: all .1s;
-    }
-    &:hover::after{
-        //width:calc(100% - 16rem);
+        transform: scale(0,1);
+        transform-origin: right top;
+        transition: transform .1s;
         width:100%;
+        }
+    
+     &:hover::after{
+        //width:calc(100% - 16rem);
+        transform-origin: left top;
+        transform: scale(1, 1);
     }
 }
