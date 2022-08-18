@@ -814,6 +814,8 @@ body {
   height: 33.8888888889vw;
   max-width: 560px;
   max-height: 560px;
+  border: 10px solid #08144B;
+  border-radius: 100px;
 }
 
 .p-header__nav__main-menu__item--profile {
@@ -914,6 +916,10 @@ body {
 
 .p-profile__item--name--wrapper {
   margin-right: 32px;
+}
+
+.p-profile__contents__wrapper {
+  margin-right: 40px;
 }
 
 .p-profile__contents__wrapper--career {
@@ -1024,13 +1030,45 @@ body {
   padding: 12px 0;
   text-align: center;
   position: relative;
-  /*
-  &:hover.p-profile__link__arrow{
-      //リンクホバー時の矢印の挙動  
-  }*/
 }
 .p-profile__link::after {
   content: "";
+  position: absolute;
+  left: 65px;
+  bottom: 7px;
+  height: 1px;
+  background: #FAFF0D;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform 0.1s;
+  width: 191px;
+}
+.p-profile__link:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
+.p-profile__link:hover {
+  background-color: #08144B;
+  color: #FAFF0D;
+  border: 1px solid #08144B;
+}
+.p-profile__link:hover .p-profile__link__arrow {
+  border-top: solid 1px #FAFF0D;
+  border-right: solid 1px #FAFF0D;
+}
+.p-profile__link:hover .p-profile__link__arrow::before {
+  content: "";
+  width: 12px;
+  height: 1px;
+  background-color: #FAFF0D;
+  position: absolute;
+  right: -2px;
+  bottom: 3.5px;
+  transform: rotate(-45deg);
+}
+
+.p-profile__link__arrow {
+  display: block;
   border-top: solid 1px #08144B;
   border-right: solid 1px #08144B;
   width: 9px;
@@ -1040,30 +1078,7 @@ body {
   right: 27.27px;
   bottom: 17.27px;
 }
-.p-profile__link:hover {
-  background-color: #08144B;
-  color: #FAFF0D;
-}
-.p-profile__link:hover::after {
-  border-top: solid 1px #FAFF0D;
-  border-right: solid 1px #FAFF0D;
-}
 
-/*
-
-.p-profile__link__arrow{
-    display: block;
-    border-top: solid 1px #08144B;
-    border-right: solid 1px #08144B;
-    width: 9px;
-    height: 9px;
-    transform: rotate(45deg);
-    position:absolute;
-    right:27.27px;
-    bottom:17.27px;
-}
-
-*/
 .background {
   background-color: black;
   width: 680px;
