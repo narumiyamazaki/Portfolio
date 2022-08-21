@@ -40,6 +40,12 @@
 @use './p-profile__career--bottom';
 @use './p-profile__side--left';
 @use './p-profile__side--right';
-@use './p-profile__side__text';
 @use './p-profile__link';
 @use './p-profile__link__arrow';
+
+//skill
+@use './p-skill';
+@use './p-skill__heading2--English';
+@use './p-skill__heading2--Japanese';
+@use './p-skill__heading3';
+@use './p-skill__icon__wrapper';
