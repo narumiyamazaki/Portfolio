@@ -5,7 +5,8 @@
     font-family: 'Roboto', sans-serif;
     background: va.$sub-color-y;
     color: va.$main-color;
-    font-size: 4rem;
-    text-align: center;
-    padding:10px 16px;
+    font-size: calc(40/1440*100vw);
+    display:flex;
+    align-items: center;
+    padding:calc(10/1440*100vw) calc(16/1440*100vw);
 }

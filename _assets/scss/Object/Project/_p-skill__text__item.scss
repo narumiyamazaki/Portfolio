@@ -1,0 +1,10 @@
+@use '../../Foundation/vars' as va;
+
+.p-skill__text__item{
+    font-family: va.$font-base-Japanese;
+    font-size:1.6rem;
+    color:va.$sub-color-w;
+    &:not(:last-child){
+        margin-bottom: 16px;
+    }
+}

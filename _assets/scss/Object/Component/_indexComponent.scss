@@ -1,5 +1,9 @@
 @use './c-title';
 @use './c-section-border';
-@use './c-skill__icon__image--html';
 @use './c-profile__side__text';
-@use './c-margin__section-border--skill'
+@use './c-margin__section-border--skill';
+@use './c-skill__icon__image--html';
+@use './c-skill__icon__image--sass';
+@use './c-skill__icon__image--WordPress';
+@use './c-skill__icon__image--responsive';
+@use './c-skill__icon__text';

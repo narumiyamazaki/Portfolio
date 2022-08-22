@@ -1,0 +1,7 @@
+@use '../../Foundation/vars' as va;
+
+.p-skill__text__item__wrapper{
+    background: va.$main-color;
+    padding:24px;
+    border-radius: 30px;
+}
