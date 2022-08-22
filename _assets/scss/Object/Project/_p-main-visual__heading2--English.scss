@@ -2,6 +2,6 @@
 
 .p-main-visual__heading2--English{
     font-family: va.$font-base-English;
-    font-size:3.2rem;
-    margin-bottom:24px;
+    font-size:calc(32/1440*100vw);
+    margin-bottom:calc(24/1440*100vw);
 }

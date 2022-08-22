@@ -2,6 +2,6 @@
 
 .p-main-visual__heading2--Japanese{
     font-family: va.$font-base-Japanese;
-    font-size:3.2rem;
+    font-size:calc(32/1440*100vw);
     margin-bottom:24px; 
 }

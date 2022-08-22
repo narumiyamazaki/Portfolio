@@ -2,6 +2,6 @@
 
 .p-main-visual__text--Japanese{
     font-family: va.$font-base-Japanese;
-    font-size: 2rem;
-    margin-bottom:96px;
+    font-size: calc(20/1440*100vw);
+    margin-bottom:calc(96/1440*100vw);
 }

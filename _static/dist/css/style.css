@@ -588,9 +588,9 @@ body {
   font-family: "Roboto", sans-serif;
   background: #08144B;
   color: #FAFF0D;
-  font-size: 4rem;
+  font-size: 2.7777777778vw;
   text-align: center;
-  padding: 10px 16px;
+  padding: 0.6944444444vw 1.1111111111vw;
 }
 
 .p-nav--service {
@@ -730,31 +730,31 @@ body {
 
 .p-main-visual__text__wrapper {
   position: absolute;
-  top: 128px;
-  left: 32px;
+  top: 8.8888888889vw;
+  left: 2.2222222222vw;
 }
 
 .p-main-visual__heading2--Japanese {
   font-family: "Noto Serif JP", serif;
-  font-size: 3.2rem;
+  font-size: 2.2222222222vw;
   margin-bottom: 24px;
 }
 
 .p-main-visual__text--Japanese {
   font-family: "Noto Serif JP", serif;
-  font-size: 2rem;
-  margin-bottom: 96px;
+  font-size: 1.3888888889vw;
+  margin-bottom: 6.6666666667vw;
 }
 
 .p-main-visual__heading2--English {
   font-family: "Roboto", sans-serif;
-  font-size: 3.2rem;
-  margin-bottom: 24px;
+  font-size: 2.2222222222vw;
+  margin-bottom: 1.6666666667vw;
 }
 
 .p-main-visual__text--English {
   font-family: "Roboto", sans-serif;
-  font-size: 2rem;
+  font-size: 1.3888888889vw;
 }
 
 .p-profile {
@@ -770,19 +770,19 @@ body {
 .p-profile__heading2--English {
   color: #08144B;
   font-family: "Roboto", sans-serif;
-  font-size: 5.6rem;
-  margin-bottom: 8px;
+  font-size: 3.8888888889vw;
+  margin-bottom: 0.5555555556vw;
   position: relative;
   padding-left: 16px;
 }
 .p-profile__heading2--English::before {
   content: "";
-  width: 8px;
-  height: 50px;
+  width: 0.5555555556vw;
+  height: 3.4722222222vw;
   background-color: #193EE3;
   position: absolute;
-  left: 0px;
-  top: 12px;
+  left: 0;
+  top: 0.8333333333vw;
 }
 
 .p-profile__heading2--Japanese {
@@ -794,8 +794,8 @@ body {
 
 .p-profile__text--main {
   font-family: "Noto Serif JP", serif;
-  font-size: 1.6rem;
-  margin-bottom: 8px;
+  font-size: max(1.1111111111vw, 16px);
+  margin-bottom: 0.5555555556vw;
 }
 
 .p-profile__contents__wrapper--name {
