@@ -3,6 +3,6 @@
 
 .p-profile__item--English-translation{
     font-family: va.$font-base-English;
-    font-size:1.4rem;
+    font-size:max(calc(14/1440*100vw),14px);;
     font-style: italic;
 }

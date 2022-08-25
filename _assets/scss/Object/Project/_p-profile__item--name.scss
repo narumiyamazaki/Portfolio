@@ -2,7 +2,7 @@
 
 .p-profile__item--name{
     font-family: va.$font-base-Japanese;
-    font-size:2.4rem;
+    font-size:max(calc(24/1440*100vw),20px);
     font-weight:Semibold;
     margin-bottom:4px;
 }

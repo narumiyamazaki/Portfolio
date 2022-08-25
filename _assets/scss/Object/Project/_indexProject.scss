@@ -44,6 +44,7 @@
 @use './p-profile__link__arrow';
 
 //skill
+//coding
 @use './p-skill';
 @use './p-skill__container';
 @use './p-skill__heading2--English';
@@ -57,3 +58,6 @@
 @use './p-skill__text__item';
 @use './p-skill__text--period';
 @use './p-skill__text--date';
+
+//design
+@use './p-skill__wrapper--design';

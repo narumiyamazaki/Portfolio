@@ -1,9 +1,13 @@
 @use './c-title';
 @use './c-section-border';
-@use './c-profile__side__text';
-@use './c-margin__section-border--skill';
+@use './c-side__text';
 @use './c-skill__icon__image--html';
 @use './c-skill__icon__image--sass';
 @use './c-skill__icon__image--WordPress';
 @use './c-skill__icon__image--responsive';
 @use './c-skill__icon__text';
+@use './c-circle';
+@use './c-section-border--skill';
+@use './c-skill__icon__image--retouch';
+@use './c-skill__icon__image--bezier-curve';
+@use './c-skill__icon__image--Figma';

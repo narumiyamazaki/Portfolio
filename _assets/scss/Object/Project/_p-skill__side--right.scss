@@ -2,8 +2,8 @@
 
 .p-skill__side--right{
     order: 2;
-    width:100px;
-    height:837px;
+    width:calc(100/1440*100vw);
+    height:max(calc(837/1440*100vw),695px);
     position:relative;
     background-color: va.$main-color;
     display: flex;
@@ -11,8 +11,8 @@
     justify-content: center;
     &::before{
         content:'';
-        width:100px;
-        height:18px;
+        width:calc(100/1440*100vw);
+        height:calc(18/1440*100vw);
         background-color: va.$sub-color-y;
         position:absolute;
         top:0;
@@ -20,8 +20,8 @@
     }
     &::after{
         content:'';
-        width:100px;
-        height:18px;
+        width:calc(100/1440*100vw);
+        height:calc(18/1440*100vw);
         background-color: va.$sub-color-y;
         position:absolute;
         bottom:0;

@@ -2,6 +2,6 @@
 
 .p-profile__name{
     font-family: va.$font-base-English;
-    font-size: 1.8rem;
-    margin-top:11px;
+    font-size: max(calc(18/1440*100vw),18px);
+    margin-top:calc(11/1440*100vw);
 }

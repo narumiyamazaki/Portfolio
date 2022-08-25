@@ -2,6 +2,6 @@
 
 .p-skill__text__item__wrapper{
     background: va.$main-color;
-    padding:24px;
+    padding:calc(24/1440*100vw);
     border-radius: 30px;
 }

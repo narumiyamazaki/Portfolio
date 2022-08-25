@@ -1,5 +1,5 @@
 .c-section-border{
-    width:920px;
+    width:calc(920/1440*100vw);
     height: 2px;
     background-color: #5E527E;
     display: block;

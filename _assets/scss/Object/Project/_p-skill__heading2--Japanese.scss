@@ -3,6 +3,6 @@
 .p-skill__heading2--Japanese{
     font-family: va.$font-base-Japanese;
     color: va.$main-color;
-    font-size:16px;
-    margin-left:8px;
+    font-size:calc(16/1440*100vw);
+    margin-left:calc(8/1440*100vw);
 }

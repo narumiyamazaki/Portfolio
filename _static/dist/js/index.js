@@ -26,22 +26,3 @@ mediaQueryList.addEventListener("change", listener);
 
 // 初期化処理
 listener(mediaQueryList);
-
-//
-    //ボツコード
-    //$(function () {
-        //windowサイズが768px未満の時
-        //if (width <= 768) {
-            //追加されるHTML親要素
-            //<div class="p-item-section--cotainer"></div>を親要素に指定する
-            //var div = $('<div class="p-item-section--cotainer">');
-            //.c-item-section1のついたクラスに
-            //$(".c-item-section1").wrapAll(div);
-            //$('.inner').wrapAll('<div class="new" />');
-        //}
-        //768px以上なら何もしない
-        //else {
-            //;
-        //}
-    //});
-//});

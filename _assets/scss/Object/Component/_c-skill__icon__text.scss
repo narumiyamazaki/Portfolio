@@ -2,6 +2,6 @@
 
 .c-skill__icon__text{
     font-family: va.$font-base-English;
-    font-size:1.4rem;
+    font-size:clamp(10px,calc(14/1440*100vw),14px)1.4rem;
     font-style: italic;
 }

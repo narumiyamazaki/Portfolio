@@ -3,13 +3,17 @@
 .p-profile__link{
     font-family: va.$font-base-Japanese;
     color: va.$main-color;
-    font-size:1.6rem;
+    font-size:16px;
+    //font-size:calc(16/1440*100vw);
     font-weight: bold;
     border:1px solid;
     border-radius: 30px;
     display: block;
-    height: 48px;
+    height:48px;
+    //height: calc(48/1440*100vw);
+    //height: max(calc(48/1440*100vw),48px);
     padding:12px 0;
+    //padding:calc(12/1440*100vw) 0;
     text-align: center;
     //矢印配置のため
     position:relative;
@@ -27,6 +31,7 @@
    transform-origin: right top;
    transition: transform .1s;
    width:191px;
+   //width:calc(191/1440*100vw);
    }
 
 &:hover::after{
@@ -45,11 +50,14 @@
         & .p-profile__link__arrow::before{
             content:'';
             width:12px;
+            //width:calc(12/1440*100vw);
             height:1px;
             background-color: va.$sub-color-y;
             position:absolute;
             right:-2px;
+            //right:-calc(2/1440*100vw);
             bottom:3.5px;
+            //bottom:calc(3.5/1440*100vw);
             transform: rotate(-45deg);
         }
     }

@@ -3,6 +3,6 @@
 .p-profile__heading2--Japanese{
     font-family: va.$font-base-Japanese;
     color: va.$main-color;
-    font-size:1.6rem;
+    font-size:calc(16/1440*100vw);;
     margin-left:8px;
 }

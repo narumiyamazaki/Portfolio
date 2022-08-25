@@ -2,7 +2,7 @@
 
 .p-profile__career--top{
     font-family: va.$font-base-Japanese;
-    font-size: 1.8rem;
-    margin-bottom:8px;
+    font-size: calc(18/1440*100vw);
+    margin-bottom:calc(8/1440*100vw);
     max-width: 320px;
 }
