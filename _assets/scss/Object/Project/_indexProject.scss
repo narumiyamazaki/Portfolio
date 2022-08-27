@@ -61,3 +61,13 @@
 
 //design
 @use './p-skill__wrapper--design';
+
+//works
+@use './p-works__heading2--English';
+@use './p-works__heading2--Japanese';
+@use './p-works__text';
+@use './p-works__container';
+@use './p-works__card__container--1st';
+@use './p-works__card__image--portfolio';
+@use './p-works__side--left';
+@use './p-works__card__caption';

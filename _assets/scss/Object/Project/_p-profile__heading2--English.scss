@@ -5,15 +5,5 @@
     font-family: va.$font-base-English;
     font-size:calc(56/1440*100vw);
     margin-bottom:calc(8/1440*100vw);
-    position:relative;
     padding-left:16px;
-        &::before{
-            content: '';
-            width: calc(8/1440*100vw);
-            height: calc(50/1440*100vw);
-            background-color: va.$sub-color-b;
-            position: absolute;
-            left:0;
-            top: calc(12/1440*100vw);        
-        }
 }

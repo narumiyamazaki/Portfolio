@@ -1,10 +1,11 @@
 @use '../../Foundation/vars' as va;
 
-.p-skill__heading2--English{
+.p-works__heading2--English{
     color: va.$main-color;
     font-family: va.$font-base-English;
     font-size:calc(56/1440*100vw);
     margin-bottom:calc(8/1440*100vw)8px;
+    margin-bottom: 8px;
     /*
         &::before{
             content: '';

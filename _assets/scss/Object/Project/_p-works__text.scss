@@ -1,0 +1,7 @@
+@use '../../Foundation/vars' as va;
+
+.p-works__text{
+    font-size: max(calc(16/1440*100vw),16px);
+    font-family: va.$font-base-Japanese;
+    margin-bottom:32px;
+}
