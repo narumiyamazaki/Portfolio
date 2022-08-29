@@ -1,0 +1,7 @@
+@use "../../Foundation/vars" as va;
+
+.p-profile__career__heading3{
+    font-family: va.$font-base-Japanese;
+    font-size: calc(24/1440*100vw);
+    font-weight: SemiBold;
+}

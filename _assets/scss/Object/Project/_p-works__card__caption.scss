@@ -1,8 +1,11 @@
 @use '../../Foundation/vars' as va;
 
 .p-works__card__caption{
+    display: flex;
+    justify-content: center;
     font-family: va.$font-base-Japanese;
-    font-size: calc(24/1440*100vw);
+    //フォントサイズは要調整か？
+    font-size: calc(18/1440*100vw);
     font-weight: bold;
     color:#5E527E;
 }

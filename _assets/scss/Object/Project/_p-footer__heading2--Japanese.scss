@@ -1,0 +1,8 @@
+@use "../../Foundation/vars" as va;
+
+.p-footer__heading2--Japanese{
+    font-size: max(calc(16/1440*100vw),16px);
+    font-family: va.$font-base-Japanese;
+    color:va.$sub-color-y;
+    margin-left: 8px;
+}

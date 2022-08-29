@@ -15,3 +15,9 @@
 
 //works
 @use './c-works__card__role';
+@use './c-asterisk';
+
+//profile-lower-page
+@use './c-profile__external-link--twitter';
+@use './c-profile__external-link--blog';
+@use './c-profile__external-link--GitHub';

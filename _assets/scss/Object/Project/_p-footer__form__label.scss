@@ -1,0 +1,10 @@
+@use "../../Foundation/vars" as va;
+
+.p-footer__form__label{
+    display: inline-block;
+    font-family: va.$font-base-Japanese;
+    color:#fff;
+    font-size: max(calc(20/1440*100vw),16px);
+    font-weight: bold;
+    margin-bottom:calc(16/1440*100vw);
+}

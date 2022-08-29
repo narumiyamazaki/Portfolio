@@ -1,0 +1,11 @@
+@use "../../Foundation/vars" as va;
+
+
+.p-footer__text{
+    font-family: va.$font-base-Japanese;
+    font-size:calc(24/1440*100vw);
+    color: #fff;
+    &:not(:last-child){
+        margin-bottom:calc(36/1440*100vw);
+    }
+}

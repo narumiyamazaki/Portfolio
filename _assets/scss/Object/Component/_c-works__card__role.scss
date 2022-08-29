@@ -1,6 +1,12 @@
+@use '../../Foundation/vars' as va;
+
 .c-works__card__role{
+    font-family: va.$font-base-English;
+    font-weight: bold;
+    font-style: italic;
     display:flex;
     justify-content: center;
     align-items: center;
     background: #E0E0E0;
+    padding:calc(16/1440*100vw);
 }

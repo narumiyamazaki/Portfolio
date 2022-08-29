@@ -1,13 +1,27 @@
+//header
 @use './p-main-menu';
 @use './p-header__nav__main-menu__item';
 @use './p-header__nav__main-menu__item--other';
-@use './_p-nav--service';
+@use './p-header__nav__main-menu__item--profile';
+@use './p-header__nav__main-menu__item--skill';
+@use './p-header__nav__main-menu__item--works';
+@use './p-header__nav__main-menu__item--contact';
+@use './p-header__nav__main-menu__item--home';
+@use './p-header__breadcrumb__wrapper';
+@use './p-header__title';
+@use './p-header__breadcrumb__home';
+@use './p-header__breadcrumb__arrow';
+@use './_p-header__breadcrumb__profile';
+
+
+//@use './p-nav--service';
+@use './p-header__nav__wrapper';
 @use './p-sub-menu--service';
+@use './p-header__title__wrapper';
 @use './p-nav--btn';
 @use './p-header__nav';
 @use './p-header__nav__main-menu';
 @use './p-heading1';
-@use './p-main';
 @use './p-main-visual';
 @use './p-main-visual__text__wrapper';
 
@@ -25,10 +39,6 @@
 @use './p-profile__contents__wrapper--name';
 @use './p-profile__item--name';
 @use './p-profile__image';
-@use './p-header__nav__main-menu__item--profile';
-@use './p-header__nav__main-menu__item--skill';
-@use './p-header__nav__main-menu__item--works';
-@use './p-header__nav__main-menu__item--contact';
 @use './p-profile__item--English-translation';
 @use './p-profile__name';
 @use './p-profile__item--name--wrapper';
@@ -63,11 +73,60 @@
 @use './p-skill__wrapper--design';
 
 //works
+@use './p-works';
 @use './p-works__heading2--English';
 @use './p-works__heading2--Japanese';
 @use './p-works__text';
 @use './p-works__container';
 @use './p-works__card__container--1st';
 @use './p-works__card__image--portfolio';
-@use './p-works__side--left';
+@use './p-works__card__image--hamburger';
+@use './p-works__card__image--web-production-company';
 @use './p-works__card__caption';
+@use './p-works__side--left';
+@use './p-works__side--right';
+@use './p-works__card__container--2nd';
+@use './p-works__card__image--RaiseTech-web-banner';
+@use './p-works__card__image--RaiseTech-sns-banner';
+@use './p-works__card__image--miraini-logo';
+
+//footer
+@use './p-footer__container';
+@use './p-footer__text__wrapper';
+@use './p-footer__heading2--English';
+@use './p-footer__heading2--Japanese';
+@use './p-footer__text';
+@use './p-footer__form';
+@use './p-footer__form__label';
+@use './p-footer__form__input--name';
+@use './p-footer__form__input--company';
+@use './p-footer__form__input--email';
+@use './p-footer__form__textarea';
+@use './p-footer__form__button';
+@use './p-footer__copyright';
+@use './p-footer__copyright__text';
+
+//main-lower-page
+@use './p-main--lower-page';
+
+//profile-lower-page
+@use './p-profile__container--lower-page';
+@use './p-profile__wrapper--lower-page';
+@use './p-profile__inner--lower-page';
+@use './p-profile__heading__wrapper';
+@use './p-profile__heading__comment';
+@use './p-profile__heading__comment__emphasis';
+@use './p-profile__side__lower-page--right';
+@use './p-profile__side__lower-page--left';
+@use './p-profile__infomation';
+@use './p-profile__item--lower-page';
+@use './p-profile__name--lower-page';
+@use './p-profile__residence--lower-page';
+@use './p-profile__year-of-birth--lower-page';
+@use './p-profile__occupation--lower-page';
+@use './p-profile__career';
+@use './p-profile__career__heading3';
+@use './p-profile__career__text';
+@use './p-profile__image--lower-page';
+@use './p-profile__external-link__wrapper';
+@use './p-profile__external-link__text';

@@ -1,0 +1,7 @@
+.p-works__card__container--2nd{
+    width:calc(920/1440*100vw);
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:calc(40/1440*100vw);
+    //margin-bottom:calc(56/1440*100vw);
+}

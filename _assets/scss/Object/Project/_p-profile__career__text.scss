@@ -1,0 +1,10 @@
+@use "../../Foundation/vars" as va;
+
+.p-profile__career__text{
+    font-family: va.$font-base-Japanese;
+    font-size:max(calc(16/1440*100vw),16px);
+    max-width: min(calc(650/1440*100vw),650px);
+    &:not(:last-child){
+        margin-bottom:max(calc(24/1440*100vw),24px);
+    }
+}

@@ -1,0 +1,6 @@
+@use "../../Foundation/vars" as va;
+
+.c-asterisk{
+    color:va.$sub-color-y;
+    font-size:calc(24/1440*100vw);
+}

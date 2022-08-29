@@ -1,0 +1,9 @@
+@use "../../Foundation/vars" as va;
+
+.p-footer__form__button{
+    font-family: va.$font-base-Japanese;
+    font-size:calc(24/1440*100vw);
+    padding: calc(8/1440*100vw) calc(40/1440*100vw);
+    background:#fff;
+    border-radius: 20px;
+}

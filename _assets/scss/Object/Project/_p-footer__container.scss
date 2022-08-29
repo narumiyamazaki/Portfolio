@@ -1,0 +1,9 @@
+@use "../../Foundation/vars" as va;
+
+.p-footer__container{
+    background:va.$main-color;
+    padding:calc(144/1440*100vw) calc(96/1440*100vw);
+    //width: calc(1152/1440*100vw);
+    display: flex;
+    justify-content: space-between;
+}
