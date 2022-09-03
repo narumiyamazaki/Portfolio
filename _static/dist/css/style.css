@@ -958,6 +958,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: max(0.9722222222vw, 14px);
   font-style: italic;
+  display: block;
+  font-weight: 400;
 }
 
 .p-profile__name {
@@ -1587,16 +1589,20 @@ body {
 .p-profile__container--lower-page {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 8.3333333333vw;
 }
 
 .p-profile__wrapper--lower-page {
+  max-width: 83.3333333333vw;
   display: flex;
   align-items: flex-end;
   order: 1;
+  padding-bottom: 2.7777777778vw;
 }
 
 .p-profile__inner--lower-page {
-  max-width: min(45.8333333333vw, 700px);
+  min-width: min(45.8333333333vw, 700px);
+  margin-right: 3.5416666667vw;
 }
 
 .p-profile__heading__wrapper {
@@ -1611,30 +1617,43 @@ body {
   background: #FAFF0D;
   padding: max(0.5555555556vw, 8px) max(1.1111111111vw, 16px);
   position: relative;
-  z-index: 1;
+  right: 20px;
+  /*
+  &::before{
+      content:'';
+      position: absolute;
+      z-index: -1;
+      width: calc(292/1440*100vw);
+      height: calc(35/1440*100vw);
+      left: max(calc(50/1440*100vw),50px);
+      top: max(calc(65/1440*100vw),65px);
+      background: #d9d9d9;
+  }
+  */
 }
-.p-profile__heading__comment::before {
-  content: "";
-  position: absolute;
+
+.p-profile__heading__comment__shadow {
   width: 20.2777777778vw;
   height: 2.4305555556vw;
-  left: 3.4722222222vw;
-  top: 3.4722222222vw;
-  background: #d9d9d9;
+  left: max(3.4722222222vw, 50px);
+  top: max(4.5138888889vw, 65px);
+  background: #D9D9D9;
+  margin-left: 2.7777777778vw;
+  margin-top: max(-1.0416666667vw, -15px);
 }
 
 .p-profile__heading__comment__emphasis {
   font-size: 2.2222222222vw;
+  font-weight: bold;
 }
 
-.p-profile__side__lower-page--right {
-  order: 2;
+.p-lower-page__side--left {
+  order: 0;
   width: 1.6666666667vw;
-  height: 61.4583333333vw;
   position: relative;
   background-color: #08144B;
 }
-.p-profile__side__lower-page--right::before {
+.p-lower-page__side--left::before {
   content: "";
   width: 1.6666666667vw;
   height: 1.1111111111vw;
@@ -1643,7 +1662,7 @@ body {
   top: 0;
   left: 0;
 }
-.p-profile__side__lower-page--right::after {
+.p-lower-page__side--left::after {
   content: "";
   width: 1.6666666667vw;
   height: 1.1111111111vw;
@@ -1653,14 +1672,13 @@ body {
   left: 0;
 }
 
-.p-profile__side__lower-page--left {
-  order: 0;
+.p-lower-page__side--right {
+  order: 2;
   width: 1.6666666667vw;
-  height: 61.4583333333vw;
   position: relative;
   background-color: #08144B;
 }
-.p-profile__side__lower-page--left::before {
+.p-lower-page__side--right::before {
   content: "";
   width: 1.6666666667vw;
   height: 1.1111111111vw;
@@ -1669,7 +1687,7 @@ body {
   top: 0;
   left: 0;
 }
-.p-profile__side__lower-page--left::after {
+.p-lower-page__side--right::after {
   content: "";
   width: 1.6666666667vw;
   height: 1.1111111111vw;
@@ -1681,40 +1699,71 @@ body {
 
 .p-profile__infomation {
   width: 45.8333333333vw;
-  padding: 16px 0;
   border-top: 1px #000 solid;
   border-bottom: 1px #000 solid;
 }
 
-.p-profile__item--lower-page {
+.p-profile__item__name--lower-page {
   font-family: "Noto Serif JP", serif;
   font-size: 1.6666666667vw;
-  font-weight: SemiBold;
-  margin-right: max(2.7777777778vw, 40px);
+  font-weight: 600;
+  padding-top: 1.1111111111vw;
+}
+
+.p-profile__item__residence--lower-page {
+  font-family: "Noto Serif JP", serif;
+  font-size: 1.6666666667vw;
+  font-weight: 600;
+  padding-top: 1.1111111111vw;
+}
+
+.p-profile__item__year-of-birth--lower-page {
+  font-family: "Noto Serif JP", serif;
+  font-size: 1.6666666667vw;
+  font-weight: 600;
+  padding-top: 1.6666666667vw;
+  padding-bottom: 1.1111111111vw;
+}
+
+.p-profile__item__occupation--lower-page {
+  font-family: "Noto Serif JP", serif;
+  font-size: 1.6666666667vw;
+  font-weight: 600;
+  padding-top: 1.6666666667vw;
+  padding-bottom: 1.1111111111vw;
+}
+
+.p-profile--bottom .p-profile__item--lower-page {
+  padding-bottom: 1.1111111111vw;
 }
 
 .p-profile__name--lower-page {
   font-family: "Roboto", sans-serif;
   font-size: max(1.6666666667vw, 20px);
+  padding-top: 1.1111111111vw;
 }
 
 .p-profile__residence--lower-page {
   font-family: "Noto Serif JP", serif;
   font-size: max(1.6666666667vw, 20px);
+  padding-top: 1.1111111111vw;
 }
 
 .p-profile__year-of-birth--lower-page {
   font-family: "Noto Serif JP", serif;
   font-size: max(1.6666666667vw, 20px);
+  padding-top: 1.1111111111vw;
 }
 
 .p-profile__occupation--lower-page {
   font-family: "Noto Serif JP", serif;
   font-size: max(1.6666666667vw, 20px);
+  padding-top: 1.1111111111vw;
 }
 
 .p-profile__career {
   padding: 1.1111111111vw 0;
+  border-bottom: 1px solid #000;
 }
 
 .p-profile__career__heading3 {
@@ -1754,6 +1803,46 @@ body {
   font-size: max(1.1111111111vw, 14px);
   display: flex;
   justify-content: center;
+}
+
+.p-profile__about-me__heading2--English {
+  color: #08144B;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.8888888889vw;
+  margin-bottom: 0.5555555556vw;
+}
+
+.p-profile__about-me__heading2--Japanese {
+  font-family: "Noto Serif JP", serif;
+  color: #08144B;
+  font-size: 1.1111111111vw;
+  margin-left: 8px;
+}
+
+.p-profile__about-me__wrapper {
+  order: 1;
+}
+
+.p-profile__about-me {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-profile__about-me__content__container {
+  width: 80.5555555556vw;
+}
+
+.p-profile__about-me__content__wrapper {
+  display: grid;
+  gap: 5.5555555556vw;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.p-profile__about-me__heading3 {
+  background: linear-gradient(transparent 60%, #FAFF0D 60%);
+  font-family: "Noto Serif JP", serif;
+  font-weight: bold;
+  font-size: 1.6666666667vw;
 }
 
 .c-section-border {
@@ -1860,6 +1949,7 @@ body {
 
 .c-profile__external-link--twitter {
   background: url(../img/twitter-icon.png);
+  background-size: cover;
   width: max(3.4722222222vw, 40px);
   height: max(3.4722222222vw, 40px);
 }
@@ -1868,12 +1958,14 @@ body {
   background: url(../img/blog-icon.png);
   width: max(3.4722222222vw, 40px);
   height: max(3.4722222222vw, 40px);
+  background-size: cover;
 }
 
 .c-profile__external-link--GitHub {
   background: url(../img/github-icon.png);
   width: max(3.4722222222vw, 40px);
   height: max(3.4722222222vw, 40px);
+  background-size: cover;
 }
 
 .u-margin__section-border {
@@ -1890,6 +1982,10 @@ body {
   margin: 47px 0;
   display: flex;
   justify-content: center;
+}
+
+.u-margin-16px {
+  margin-right: 16px;
 }
 
 .u-visually-hidden {

@@ -6,14 +6,18 @@
     background: va.$sub-color-y;
     padding:max(calc(8/1440*100vw),8px) max(calc(16/1440*100vw),16px);
     position: relative;
-    z-index: 1;
+    //right: max(calc(50/1440*100vw),50px);
+    right:20px;
+    /*
     &::before{
         content:'';
         position: absolute;
+        z-index: -1;
         width: calc(292/1440*100vw);
         height: calc(35/1440*100vw);
-        left: calc(50/1440*100vw);
-        top: calc(50/1440*100vw);
+        left: max(calc(50/1440*100vw),50px);
+        top: max(calc(65/1440*100vw),65px);
         background: #d9d9d9;
     }
+    */
 }

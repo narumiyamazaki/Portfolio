@@ -3,4 +3,5 @@
 .p-profile__name--lower-page{
     font-family: va.$font-base-English;
     font-size: max(calc(24/1440*100vw),20px);
+    padding-top: calc(16/1440*100vw);
 }

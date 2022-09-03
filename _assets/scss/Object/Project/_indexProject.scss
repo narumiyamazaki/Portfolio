@@ -115,11 +115,16 @@
 @use './p-profile__inner--lower-page';
 @use './p-profile__heading__wrapper';
 @use './p-profile__heading__comment';
+@use './p-profile__heading__comment__shadow';
 @use './p-profile__heading__comment__emphasis';
-@use './p-profile__side__lower-page--right';
-@use './p-profile__side__lower-page--left';
+@use './p-lower-page__side--left';
+@use './_p-lower-page__side--right';
 @use './p-profile__infomation';
-@use './p-profile__item--lower-page';
+@use './p-profile__item__name--lower-page';
+@use './p-profile__item__residence--lower-page';
+@use './p-profile__item__year-of-birth--lower-page';
+@use './p-profile__item__occupation--lower-page';
+@use './p-profile--bottom';
 @use './p-profile__name--lower-page';
 @use './p-profile__residence--lower-page';
 @use './p-profile__year-of-birth--lower-page';
@@ -130,3 +135,12 @@
 @use './p-profile__image--lower-page';
 @use './p-profile__external-link__wrapper';
 @use './p-profile__external-link__text';
+
+//about me
+@use './p-profile__about-me__heading2--English';
+@use './p-profile__about-me__heading2--Japanese';
+@use './p-profile__about-me__wrapper';
+@use './p-profile__about-me';
+@use './p-profile__about-me__content__container';
+@use './p-profile__about-me__content__wrapper';
+@use './p-profile__about-me__heading3';

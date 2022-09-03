@@ -1,9 +1,8 @@
 @use '../../Foundation/vars' as va;
 
-.p-profile__side__lower-page--left{
-    order: 0;
+.p-lower-page__side--right{
+    order: 2;
     width:calc(24/1440*100vw);
-    height:calc(885/1440*100vw);
     position:relative;
     background-color: va.$main-color;
     &::before{

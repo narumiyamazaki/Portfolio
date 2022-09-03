@@ -1,0 +1,5 @@
+.p-profile__about-me__content__wrapper{
+    display: grid;
+    gap:calc(80/1440*100vw);
+    grid-template-columns: repeat(2,1fr);
+}
