@@ -1,0 +1,20 @@
+@use '../../Foundation/vars' as va;
+
+.p-works__heading2__English--lower-page{
+    color: va.$main-color;
+    font-family: va.$font-base-English;
+    font-size:calc(56/1440*100vw);
+    margin-bottom:calc(8/1440*100vw)8px;
+    margin-bottom: 8px;
+    /*
+        &::before{
+            content: '';
+            width: calc(8/1440*100vw);
+            height: calc(50/1440*100vw)50px;
+            background-color: va.$sub-color-b;
+            position: absolute;
+            left:0px;
+            top: calc(12/1440*100vw);        
+        }
+    */
+}

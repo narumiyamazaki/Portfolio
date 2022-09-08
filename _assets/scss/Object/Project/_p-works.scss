@@ -1,5 +1,5 @@
 .p-works{
     display:flex;
     justify-content: space-between;
-    margin-bottom:120px;
+    margin-bottom:calc(120/1440*100vw);
 }

@@ -11,8 +11,11 @@
 @use './p-header__title';
 @use './p-header__breadcrumb__home';
 @use './p-header__breadcrumb__arrow';
-@use './_p-header__breadcrumb__profile';
+@use './p-header__breadcrumb__current.scss';
 
+//共通スタイル top-page
+@use './p-top-page__side--left';
+@use './p-top-page__side--right';
 
 //@use './p-nav--service';
 @use './p-header__nav__wrapper';
@@ -24,7 +27,6 @@
 @use './p-heading1';
 @use './p-main-visual';
 @use './p-main-visual__text__wrapper';
-
 @use './p-main-visual__heading2--Japanese';
 @use './p-main-visual__text--Japanese';
 @use './p-main-visual__heading2--English';
@@ -48,8 +50,6 @@
 @use './p-profile__item--career--wrapper';
 @use './p-profile__career--top';
 @use './p-profile__career--bottom';
-@use './p-profile__side--left';
-@use './p-profile__side--right';
 @use './p-profile__link';
 @use './p-profile__link__arrow';
 
@@ -61,8 +61,7 @@
 @use './p-skill__heading2--Japanese';
 @use './p-skill__heading3';
 @use './p-skill__icon__wrapper';
-@use './p-skill__side--left';
-@use './p-skill__side--right';
+
 @use './p-skill__wrapper--coding';
 @use './p-skill__text__item__wrapper';
 @use './p-skill__text__item';
@@ -83,8 +82,7 @@
 @use './p-works__card__image--hamburger';
 @use './p-works__card__image--web-production-company';
 @use './p-works__card__caption';
-@use './p-works__side--left';
-@use './p-works__side--right';
+
 @use './p-works__card__container--2nd';
 @use './p-works__card__image--RaiseTech-web-banner';
 @use './p-works__card__image--RaiseTech-sns-banner';
@@ -109,6 +107,10 @@
 //main-lower-page
 @use './p-main--lower-page';
 
+//共通スタイル lower-page
+@use './p-lower-page__side--left';
+@use './p-lower-page__side--right';
+
 //profile-lower-page
 @use './p-profile__container--lower-page';
 @use './p-profile__wrapper--lower-page';
@@ -117,8 +119,6 @@
 @use './p-profile__heading__comment';
 @use './p-profile__heading__comment__shadow';
 @use './p-profile__heading__comment__emphasis';
-@use './p-lower-page__side--left';
-@use './_p-lower-page__side--right';
 @use './p-profile__infomation';
 @use './p-profile__item__name--lower-page';
 @use './p-profile__item__residence--lower-page';
@@ -144,3 +144,12 @@
 @use './p-profile__about-me__content__container';
 @use './p-profile__about-me__content__wrapper';
 @use './p-profile__about-me__heading3';
+@use './p-profile__about-me__text__wrapper';
+@use './p-profile__about-me__text';
+
+//works
+@use './p-works__wrapper--lower-page';
+@use './p-works__container--lower-page';
+@use './p-works__heading2__English--lower-page';
+@use './p-works__heading2__Japanese--lower-page';
+@use './p-link__work';

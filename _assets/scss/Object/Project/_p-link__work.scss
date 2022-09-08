@@ -1,0 +1,7 @@
+@use "../../Foundation/vars" as va;
+
+.p-link__work{
+    font-family: va.$font-base-Japanese;
+    color: va.$main-color;
+    text-decoration: underline;
+}
