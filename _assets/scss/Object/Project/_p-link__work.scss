@@ -2,6 +2,9 @@
 
 .p-link__work{
     font-family: va.$font-base-Japanese;
+    font-size:max(calc(16/1440*100vw),16px);
     color: va.$main-color;
     text-decoration: underline;
+    display: block;
+    margin-bottom:calc(120/1440*100vw);
 }

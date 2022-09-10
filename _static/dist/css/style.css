@@ -1750,6 +1750,7 @@ body {
 .p-works__wrapper--lower-page {
   order: 1;
   padding-bottom: 2.7777777778vw;
+  width: 63.8888888889vw;
 }
 
 .p-works__container--lower-page {
@@ -1786,8 +1787,37 @@ body {
 
 .p-link__work {
   font-family: "Noto Serif JP", serif;
+  font-size: max(1.1111111111vw, 16px);
   color: #08144B;
   text-decoration: underline;
+  display: block;
+  margin-bottom: 8.3333333333vw;
+}
+
+.p-works__heading3__wrapper--lower-page {
+  display: flex;
+  margin-bottom: 2.2222222222vw;
+}
+
+.p-works__heading3--lower-page {
+  font-family: "Noto Serif JP", serif;
+  font-size: 2.2222222222vw;
+  margin-right: 0.5555555556vw;
+}
+
+.p-works__thumbnail--web-site {
+  display: flex;
+  object-fit: cover;
+  width: 63.8888888889vw;
+  height: 31.9444444444vw;
+}
+
+.p-works__thumbnail__box {
+  width: 50vw;
+  height: 40.8333333333vw;
+  background: #D9D9D9;
+  margin-left: -16.3888888889vw;
+  margin-top: -36.3888888889vw;
 }
 
 .c-section-border {
@@ -1911,6 +1941,17 @@ body {
   width: max(3.4722222222vw, 40px);
   height: max(3.4722222222vw, 40px);
   background-size: cover;
+}
+
+.c-works__role {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E0E0E0;
+  padding: 1.1111111111vw;
 }
 
 .u-margin__section-border {
