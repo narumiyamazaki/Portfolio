@@ -2,11 +2,12 @@
 
 .c-works__role{
     font-family: va.$font-base-English;
+    font-size:max(calc(16/1440*100vw),16px);
     font-weight: bold;
     font-style: italic;
     display:flex;
     justify-content: center;
     align-items: center;
     background: #E0E0E0;
-    padding:calc(16/1440*100vw);
+    padding:max(calc(16/1440*100vw),16px);
 }

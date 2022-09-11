@@ -3,5 +3,5 @@
 .p-works__heading3--lower-page{
     font-family: va.$font-base-Japanese;
     font-size:calc(32/1440*100vw);
-    margin-right:calc(8/1440*100vw);
+    margin-right:max(calc(8/1440*100vw),8px);
 }

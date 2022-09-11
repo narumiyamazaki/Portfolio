@@ -7,6 +7,12 @@
 @use './p-header__nav__main-menu__item--works';
 @use './p-header__nav__main-menu__item--contact';
 @use './p-header__nav__main-menu__item--home';
+
+//header SP
+@use './p-header__nav--sp';
+@use './p-header__nav__main-menu--sp';
+@use './p-header__nav__main-menu__item--sp';
+
 @use './p-header__breadcrumb__wrapper';
 @use './p-header__title';
 @use './p-header__breadcrumb__home';
@@ -147,13 +153,32 @@
 @use './p-profile__about-me__text__wrapper';
 @use './p-profile__about-me__text';
 
-//works
+//works-lower-page
 @use './p-works__wrapper--lower-page';
 @use './p-works__container--lower-page';
 @use './p-works__heading2__English--lower-page';
 @use './p-works__heading2__Japanese--lower-page';
 @use './p-link__work';
-@use './p-works__heading3__wrapper--lower-page';
+@use './p-works__heading3__lower-page__wrapper--web-site';
+@use './p-works__heading3__lower-page__wrapper--design';
 @use './p-works__heading3--lower-page';
 @use './p-works__thumbnail--web-site';
+@use './p-works__thumbnail--RaiseTech-google-banner';
+@use './p-works__thumbnail--RaiseTech-sns-banner';
+@use './p-works__thumbnail--logo';
 @use './p-works__thumbnail__box';
+@use './p-works__thumbnail__box--RaiseTech-google-banner';
+@use './p-works__thumbnail__box--RaiseTech-sns-banner';
+@use './p-works__design__container';
+@use './p-works__desing__wrapper';
+@use './p-works__design--portfolio';
+@use './p-works__design__inner';
+@use './p-works__desing__box';
+@use './p-quote__wrapper';
+@use './p-works__content__text';
+@use './p-works__logo__content__text--top';
+@use './p-works__logo__content__text--bottom';
+@use './p-quote__list__wrapper';
+@use './p-quote__list';
+@use './p-quote__text';
+@use './p-quote__text--last';

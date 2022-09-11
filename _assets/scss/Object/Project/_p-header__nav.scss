@@ -7,7 +7,7 @@
     left: 0;
     right: 0;
     background-color: #fff;
-    @include mixin.mq(pc){
+    @include mixin.mq(tb){
         display:block;
         position: static;
         

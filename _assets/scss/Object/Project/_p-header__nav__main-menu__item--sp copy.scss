@@ -1,0 +1,11 @@
+@use '../../../scss/Foundation/mixin';
+@use '../../Foundation/vars' as va;
+
+.p-header__nav__main-menu__item--sp{
+    font-family: 'Roboto', sans-serif;
+    color: va.$sub-color-y;
+    font-size: calc(40/375*100vw);
+    display:flex;
+    align-items: center;
+    margin-bottom: calc(48/375*100vw);
+}

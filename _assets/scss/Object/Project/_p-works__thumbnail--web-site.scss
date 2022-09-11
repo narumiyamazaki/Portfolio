@@ -1,6 +1,6 @@
 .p-works__thumbnail--web-site{
     display: flex;
-    object-fit: cover;
+    object-fit: contain;
     width:calc(920/1440*100vw);
     height:calc(460/1440*100vw);
 }
