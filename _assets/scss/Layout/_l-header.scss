@@ -8,7 +8,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     @include mixin.mq(sp){
         justify-content: right;
     }

@@ -2,6 +2,7 @@
 
 .p-main-visual--sp{
     display: none;
+    width:100vw;
     @include mixin.mq(sp){
         display: block;
     }
