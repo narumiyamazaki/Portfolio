@@ -572,6 +572,8 @@
 /*base */
 html {
    font-size: 62.5%; 
+   //横スクロールが出ないように
+   overflow-x: hidden;
 }
 
 body {

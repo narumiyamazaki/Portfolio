@@ -11,7 +11,10 @@
 //header SP
 @use './p-header__nav--sp';
 @use './p-header__nav__main-menu--sp';
-@use './p-header__nav__main-menu__item--sp';
+@use './p-main-visual--pc';
+@use './p-main-visual--sp';
+@use './p-main-visual__text--Japanese--sp';
+@use './p-main-visual__text--English--sp';
 
 @use './p-header__breadcrumb__wrapper';
 @use './p-header__title';

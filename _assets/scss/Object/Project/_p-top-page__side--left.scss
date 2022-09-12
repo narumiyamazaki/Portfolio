@@ -1,3 +1,4 @@
+@use '../../Foundation/mixin';
 @use '../../Foundation/vars' as va;
 
 .p-top-page__side--left{
@@ -8,6 +9,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @include mixin.mq(sp){
+        display: none;
+    }
     &::before{
         content:'';
         width:calc(100/1440*100vw);
