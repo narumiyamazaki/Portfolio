@@ -7,5 +7,6 @@
     padding-bottom:calc(40/1440*100vw);
     @include mixin.mq(sp){
         flex-direction: column;
+        width: auto;
     }
 }

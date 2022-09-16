@@ -1,4 +1,5 @@
 @use '../../Foundation/vars' as va;
+@use '../../../scss/Foundation/mixin';
 
 .p-profile__link{
     font-family: va.$font-base-Japanese;
@@ -17,8 +18,10 @@
     text-align: center;
     //矢印配置のため
     position:relative;
-
    //a下線
+   @include mixin.mq(sp){
+    display: none;
+   }
    &::after{
    content: "";
    position:absolute;
@@ -32,8 +35,6 @@
    transition: transform .1s;
    width:191px;
    //width:calc(191/1440*100vw);
-   }
-
 &:hover::after{
    //width:calc(100% - 16rem);
    transform-origin: left top;
@@ -60,5 +61,6 @@
             //bottom:calc(3.5/1440*100vw);
             transform: rotate(-45deg);
         }
-    }
+     }
+   }
 }
