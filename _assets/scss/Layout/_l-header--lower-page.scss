@@ -1,4 +1,6 @@
-.l-header--lower-page {
+@use '../Foundation/mixin';
+
+.l-header--lower-page{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -8,4 +10,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    @include mixin.mq(sp){
+        width:100vw;
+    }
 }

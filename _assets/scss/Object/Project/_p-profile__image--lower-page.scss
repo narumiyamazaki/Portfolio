@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-profile__image--lower-page{
     width:calc(489/1440*100vw);
     height: calc(647/1440*100vw);
@@ -5,4 +7,9 @@
     border-radius: 100px;
     margin-bottom:calc(24/1440*100vw);
     object-fit: cover;
+    @include mixin.mq(sp){
+        width:calc(343/375*100vw);
+        height:calc(489/375*100vw);
+        margin-bottom:calc(40/375*100vw);
+    }
 }

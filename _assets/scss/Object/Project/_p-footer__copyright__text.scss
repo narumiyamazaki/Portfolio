@@ -2,5 +2,6 @@
 
 .p-footer__copyright__text{
     font-family: va.$font-base-English;
+    color:va.$main-color;
     font-size:max(calc(16/1440*100vw),16px);
 }

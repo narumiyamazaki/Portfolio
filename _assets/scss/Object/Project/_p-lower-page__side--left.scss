@@ -1,10 +1,14 @@
 @use '../../Foundation/vars' as va;
+@use '../../../scss/Foundation/mixin';
 
 .p-lower-page__side--left{
     order: 0;
     width:calc(24/1440*100vw);
     position:relative;
     background-color: va.$main-color;
+    @include mixin.mq(sp){
+        display: none;
+    }
     &::before{
         content:'';
         width:calc(24/1440*100vw);

@@ -13,7 +13,7 @@
     background:va.$main-color;
     text-align: center;
     width: 100vw;
-    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     opacity: 0;
     transition: opacity .6s ease, visibility .6s ease;
     //flex-direction: column;

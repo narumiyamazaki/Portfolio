@@ -62,6 +62,7 @@
 @use './p-profile__career--bottom';
 @use './p-profile__link';
 @use './p-profile__link__arrow';
+@use './p-profile__heading__comment__wrapper';
 
 //skill
 //coding
@@ -70,13 +71,18 @@
 @use './p-skill__heading2--English';
 @use './p-skill__heading2--Japanese';
 @use './p-skill__heading3';
-@use './p-skill__icon__wrapper';
+@use './p-skill__icon__wrapper--coding';
+@use './p-skill__icon__wrapper--design';
 
 @use './p-skill__wrapper--coding';
 @use './p-skill__text__item__wrapper';
 @use './p-skill__text__item';
 @use './p-skill__text--period';
 @use './p-skill__text--date';
+
+//skill-sp
+@use './p-skill__text__period--sp';
+@use './p-skill__text__date--sp';
 
 //design
 @use './p-skill__wrapper--design';
@@ -85,6 +91,7 @@
 @use './p-works';
 @use './p-works__heading2--English';
 @use './p-works__heading2--Japanese';
+@use './p-works__content__text__wrapper';
 @use './p-works__text';
 @use './p-works__container';
 @use './p-works__card__container--1st';
@@ -130,6 +137,11 @@
 @use './p-profile__heading__comment__shadow';
 @use './p-profile__heading__comment__emphasis';
 @use './p-profile__infomation';
+@use './p-profile__image__wrapper--lower-page.scss';
+
+//SP用の表
+@use './p-profile__infomation--sp';
+@use './p-profile__item--Japanese';
 @use './p-profile__item__name--lower-page';
 @use './p-profile__item__residence--lower-page';
 @use './p-profile__item__year-of-birth--lower-page';
