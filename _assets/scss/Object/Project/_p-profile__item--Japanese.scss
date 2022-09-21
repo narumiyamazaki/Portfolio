@@ -2,7 +2,7 @@
 
 
 .p-profile__item--Japanese{
-    display: inline-block;
+    //display: inline-block;
     @include mixin.mq(sp){
         margin-right:calc(24/375*100vw);
     }
