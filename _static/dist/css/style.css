@@ -1098,7 +1098,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .p-heading1 {
-    margin-bottom: 21.3333333333vw;
+    margin-bottom: 10.6666666667vw;
   }
 }
 
@@ -1122,6 +1122,9 @@ body {
   .p-main-visual__text__wrapper {
     top: 22.4vw;
     left: 2.1333333333vw;
+    position: static;
+    padding: 0 4.2666666667vw;
+    margin-bottom: 32vw;
   }
 }
 
@@ -1927,6 +1930,11 @@ body {
 .p-footer__form {
   width: max(36.1111111111vw, 520px);
 }
+@media screen and (max-width: 767px) {
+  .p-footer__form {
+    width: 91.4666666667vw;
+  }
+}
 
 .p-footer__form__label {
   display: inline-block;
@@ -2621,6 +2629,12 @@ body {
   align-items: center;
   margin-bottom: 11.6666666667vw;
 }
+@media screen and (max-width: 767px) {
+  .p-works__heading3__lower-page__wrapper--design {
+    display: block;
+    margin-bottom: 21.3333333333vw;
+  }
+}
 
 .p-works__heading3--lower-page {
   font-family: "Noto Serif JP", serif;
@@ -2653,6 +2667,12 @@ body {
   width: 52.0833333333vw;
   height: 26.0416666667vw;
 }
+@media screen and (max-width: 767px) {
+  .p-works__thumbnail--RaiseTech-google-banner {
+    width: 91.4666666667vw;
+    height: 48vw;
+  }
+}
 
 .p-works__thumbnail--RaiseTech-sns-banner {
   display: block;
@@ -2661,6 +2681,12 @@ body {
   width: 33.3333333333vw;
   height: 33.3333333333vw;
 }
+@media screen and (max-width: 767px) {
+  .p-works__thumbnail--RaiseTech-sns-banner {
+    width: 91.4666666667vw;
+    height: 91.4666666667vw;
+  }
+}
 
 .p-works__thumbnail--logo {
   display: block;
@@ -2668,6 +2694,12 @@ body {
   object-fit: contain;
   width: 48.6111111111vw;
   height: 6.9444444444vw;
+}
+@media screen and (max-width: 767px) {
+  .p-works__thumbnail--logo {
+    width: 91.4666666667vw;
+    height: 13.8666666667vw;
+  }
 }
 
 .p-works__thumbnail__box {
@@ -2695,6 +2727,15 @@ body {
   margin-top: -29.375vw;
   margin-bottom: 8.3333333333vw;
 }
+@media screen and (max-width: 767px) {
+  .p-works__thumbnail__box--RaiseTech-google-banner {
+    width: 57.3333333333vw;
+    height: 60.8vw;
+    margin-top: -54.4vw;
+    margin-left: 0vw;
+    margin-bottom: 21.3333333333vw;
+  }
+}
 
 .p-works__thumbnail__box--RaiseTech-sns-banner {
   width: 50vw;
@@ -2703,6 +2744,14 @@ body {
   margin-left: -16.3888888889vw;
   margin-top: -35.5555555556vw;
   margin-bottom: 8.3333333333vw;
+}
+@media screen and (max-width: 767px) {
+  .p-works__thumbnail__box--RaiseTech-sns-banner {
+    width: 91.4666666667vw;
+    height: 104.2666666667vw;
+    margin-left: 0vw;
+    margin-top: -97.8666666667vw;
+  }
 }
 
 .p-works__design__container {
@@ -2750,6 +2799,12 @@ body {
   padding: 1.6666666667vw;
   background: #DEDEDE;
   margin-bottom: 2.7777777778vw;
+}
+@media screen and (max-width: 767px) {
+  .p-quote__wrapper {
+    padding: 10.6666666667vw 0;
+    margin-bottom: 10.6666666667vw;
+  }
 }
 
 .p-works__content__text {
@@ -2979,7 +3034,6 @@ body {
     font-size: 4.2666666667vw;
     display: inline-block;
     padding: 2.1333333333vw;
-    margin-bottom: 21.3333333333vw;
   }
 }
 

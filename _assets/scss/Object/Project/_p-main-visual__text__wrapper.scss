@@ -7,5 +7,8 @@
     @include mixin.mq(sp){
         top:calc(84/375*100vw);
         left:calc(8/375*100vw);
+        position: static;
+        padding:0 calc(16/375*100vw);
+        margin-bottom:calc(120/375*100vw);
     }
 }

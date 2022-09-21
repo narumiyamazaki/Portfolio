@@ -4,6 +4,6 @@
     margin-top:0;
     margin-bottom:120px;
     @include mixin.mq(sp){
-        margin-bottom:calc(80/375*100vw);
+        margin-bottom:calc(40/375*100vw);
     }
 }
